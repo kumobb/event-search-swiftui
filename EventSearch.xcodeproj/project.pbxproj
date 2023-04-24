@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		534F465629F33404009CF877 /* EventItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F465529F33404009CF877 /* EventItem.swift */; };
+		534F466929F3420E009CF877 /* EventSearcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F466829F3420E009CF877 /* EventSearcher.swift */; };
+		534F466B29F38427009CF877 /* EventListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F466A29F38427009CF877 /* EventListRow.swift */; };
+		534F466F29F3B2F8009CF877 /* EventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F466E29F3B2F8009CF877 /* EventDetails.swift */; };
+		534F467129F3B379009CF877 /* EventDetailsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F467029F3B379009CF877 /* EventDetailsFetcher.swift */; };
+		534F467429F3B5F6009CF877 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F467329F3B5F6009CF877 /* EventDetailsView.swift */; };
+		534F467629F3B60B009CF877 /* EventTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F467529F3B60B009CF877 /* EventTabView.swift */; };
+		534F467829F3E1D5009CF877 /* ArtistsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F467729F3E1D5009CF877 /* ArtistsTabView.swift */; };
+		534F467A29F3E234009CF877 /* ArtistDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F467929F3E234009CF877 /* ArtistDetails.swift */; };
+		534F467D29F3E2FB009CF877 /* ArtistCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F467C29F3E2FB009CF877 /* ArtistCard.swift */; };
+		534F468129F4B0F5009CF877 /* ArtistDetailsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F468029F4B0F5009CF877 /* ArtistDetailsFetcher.swift */; };
+		534F468329F4C50F009CF877 /* VenueTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F468229F4C50F009CF877 /* VenueTabView.swift */; };
+		534F468529F4C54E009CF877 /* VenueDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F468429F4C54E009CF877 /* VenueDetails.swift */; };
+		534F468729F4DA33009CF877 /* VenueDetailsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F468629F4DA33009CF877 /* VenueDetailsFetcher.swift */; };
+		534F468929F4E9A2009CF877 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F468829F4E9A2009CF877 /* MapView.swift */; };
+		534F468C29F4F76C009CF877 /* FavoritePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F468B29F4F76C009CF877 /* FavoritePageView.swift */; };
+		534F468E29F4F859009CF877 /* FavoriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534F468D29F4F859009CF877 /* FavoriteItem.swift */; };
+		534F469129F4FBF6009CF877 /* SimpleToast in Frameworks */ = {isa = PBXBuildFile; productRef = 534F469029F4FBF6009CF877 /* SimpleToast */; };
+		53CCCEC829DD433E0076425B /* SearchPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCCEC729DD433E0076425B /* SearchPageView.swift */; };
+		53CCCECD29DD4F430076425B /* SearchFormValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCCECC29DD4F430076425B /* SearchFormValues.swift */; };
+		53CCCED029DD56140076425B /* SuggestionsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CCCECF29DD56140076425B /* SuggestionsFetcher.swift */; };
 		53E3C44729DB9AAD00DD54E6 /* EventSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3C44629DB9AAD00DD54E6 /* EventSearchApp.swift */; };
 		53E3C44929DB9AAD00DD54E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3C44829DB9AAD00DD54E6 /* ContentView.swift */; };
 		53E3C44B29DB9AAD00DD54E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E3C44A29DB9AAD00DD54E6 /* Assets.xcassets */; };
@@ -14,6 +35,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		534F465529F33404009CF877 /* EventItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventItem.swift; sourceTree = "<group>"; };
+		534F466829F3420E009CF877 /* EventSearcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSearcher.swift; sourceTree = "<group>"; };
+		534F466A29F38427009CF877 /* EventListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListRow.swift; sourceTree = "<group>"; };
+		534F466E29F3B2F8009CF877 /* EventDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetails.swift; sourceTree = "<group>"; };
+		534F467029F3B379009CF877 /* EventDetailsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsFetcher.swift; sourceTree = "<group>"; };
+		534F467329F3B5F6009CF877 /* EventDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
+		534F467529F3B60B009CF877 /* EventTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTabView.swift; sourceTree = "<group>"; };
+		534F467729F3E1D5009CF877 /* ArtistsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsTabView.swift; sourceTree = "<group>"; };
+		534F467929F3E234009CF877 /* ArtistDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetails.swift; sourceTree = "<group>"; };
+		534F467C29F3E2FB009CF877 /* ArtistCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCard.swift; sourceTree = "<group>"; };
+		534F468029F4B0F5009CF877 /* ArtistDetailsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsFetcher.swift; sourceTree = "<group>"; };
+		534F468229F4C50F009CF877 /* VenueTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTabView.swift; sourceTree = "<group>"; };
+		534F468429F4C54E009CF877 /* VenueDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetails.swift; sourceTree = "<group>"; };
+		534F468629F4DA33009CF877 /* VenueDetailsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueDetailsFetcher.swift; sourceTree = "<group>"; };
+		534F468829F4E9A2009CF877 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		534F468B29F4F76C009CF877 /* FavoritePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePageView.swift; sourceTree = "<group>"; };
+		534F468D29F4F859009CF877 /* FavoriteItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteItem.swift; sourceTree = "<group>"; };
+		534F469229F50BED009CF877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		53CCCEC729DD433E0076425B /* SearchPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPageView.swift; sourceTree = "<group>"; };
+		53CCCECC29DD4F430076425B /* SearchFormValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFormValues.swift; sourceTree = "<group>"; };
+		53CCCECF29DD56140076425B /* SuggestionsFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsFetcher.swift; sourceTree = "<group>"; };
 		53E3C44329DB9AAD00DD54E6 /* EventSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E3C44629DB9AAD00DD54E6 /* EventSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSearchApp.swift; sourceTree = "<group>"; };
 		53E3C44829DB9AAD00DD54E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,12 +68,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534F469129F4FBF6009CF877 /* SimpleToast in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		534F467229F3B5CC009CF877 /* DetailTabs */ = {
+			isa = PBXGroup;
+			children = (
+				534F467329F3B5F6009CF877 /* EventDetailsView.swift */,
+				534F467529F3B60B009CF877 /* EventTabView.swift */,
+				534F467729F3E1D5009CF877 /* ArtistsTabView.swift */,
+				534F467C29F3E2FB009CF877 /* ArtistCard.swift */,
+				534F468229F4C50F009CF877 /* VenueTabView.swift */,
+				534F468829F4E9A2009CF877 /* MapView.swift */,
+			);
+			path = DetailTabs;
+			sourceTree = "<group>";
+		};
+		534F467B29F3E277009CF877 /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				53CCCEC729DD433E0076425B /* SearchPageView.swift */,
+				534F466A29F38427009CF877 /* EventListRow.swift */,
+			);
+			path = SearchPage;
+			sourceTree = "<group>";
+		};
+		534F468A29F4F6A9009CF877 /* FavoritePage */ = {
+			isa = PBXGroup;
+			children = (
+				534F468B29F4F76C009CF877 /* FavoritePageView.swift */,
+			);
+			path = FavoritePage;
+			sourceTree = "<group>";
+		};
+		53CCCECB29DD4F1F0076425B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53CCCECC29DD4F430076425B /* SearchFormValues.swift */,
+				534F465529F33404009CF877 /* EventItem.swift */,
+				534F466E29F3B2F8009CF877 /* EventDetails.swift */,
+				534F467929F3E234009CF877 /* ArtistDetails.swift */,
+				534F468429F4C54E009CF877 /* VenueDetails.swift */,
+				534F468D29F4F859009CF877 /* FavoriteItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		53CCCECE29DD53070076425B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				53CCCECF29DD56140076425B /* SuggestionsFetcher.swift */,
+				534F466829F3420E009CF877 /* EventSearcher.swift */,
+				534F467029F3B379009CF877 /* EventDetailsFetcher.swift */,
+				534F468029F4B0F5009CF877 /* ArtistDetailsFetcher.swift */,
+				534F468629F4DA33009CF877 /* VenueDetailsFetcher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		53E3C43A29DB9AAD00DD54E6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +149,11 @@
 		53E3C44529DB9AAD00DD54E6 /* EventSearch */ = {
 			isa = PBXGroup;
 			children = (
+				534F469229F50BED009CF877 /* Info.plist */,
+				53CCCECE29DD53070076425B /* Services */,
+				53CCCECB29DD4F1F0076425B /* Models */,
+				53E9CA8929DD413C0031963D /* Views */,
 				53E3C44629DB9AAD00DD54E6 /* EventSearchApp.swift */,
-				53E3C44829DB9AAD00DD54E6 /* ContentView.swift */,
 				53E3C44A29DB9AAD00DD54E6 /* Assets.xcassets */,
 				53E3C44C29DB9AAD00DD54E6 /* Preview Content */,
 			);
@@ -65,6 +166,17 @@
 				53E3C44D29DB9AAD00DD54E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53E9CA8929DD413C0031963D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				534F468A29F4F6A9009CF877 /* FavoritePage */,
+				534F467B29F3E277009CF877 /* SearchPage */,
+				534F467229F3B5CC009CF877 /* DetailTabs */,
+				53E3C44829DB9AAD00DD54E6 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +195,9 @@
 			dependencies = (
 			);
 			name = EventSearch;
+			packageProductDependencies = (
+				534F469029F4FBF6009CF877 /* SimpleToast */,
+			);
 			productName = EventSearch;
 			productReference = 53E3C44329DB9AAD00DD54E6 /* EventSearch.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 53E3C43A29DB9AAD00DD54E6;
+			packageReferences = (
+				534F468F29F4FBF6009CF877 /* XCRemoteSwiftPackageReference "SimpleToast" */,
+			);
 			productRefGroup = 53E3C44429DB9AAD00DD54E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +255,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				534F468C29F4F76C009CF877 /* FavoritePageView.swift in Sources */,
 				53E3C44929DB9AAD00DD54E6 /* ContentView.swift in Sources */,
+				534F467129F3B379009CF877 /* EventDetailsFetcher.swift in Sources */,
+				534F467629F3B60B009CF877 /* EventTabView.swift in Sources */,
+				534F468E29F4F859009CF877 /* FavoriteItem.swift in Sources */,
+				534F468329F4C50F009CF877 /* VenueTabView.swift in Sources */,
+				534F468529F4C54E009CF877 /* VenueDetails.swift in Sources */,
+				534F468129F4B0F5009CF877 /* ArtistDetailsFetcher.swift in Sources */,
+				534F466F29F3B2F8009CF877 /* EventDetails.swift in Sources */,
+				534F467D29F3E2FB009CF877 /* ArtistCard.swift in Sources */,
 				53E3C44729DB9AAD00DD54E6 /* EventSearchApp.swift in Sources */,
+				534F468729F4DA33009CF877 /* VenueDetailsFetcher.swift in Sources */,
+				534F467A29F3E234009CF877 /* ArtistDetails.swift in Sources */,
+				53CCCEC829DD433E0076425B /* SearchPageView.swift in Sources */,
+				534F467829F3E1D5009CF877 /* ArtistsTabView.swift in Sources */,
+				534F466B29F38427009CF877 /* EventListRow.swift in Sources */,
+				53CCCECD29DD4F430076425B /* SearchFormValues.swift in Sources */,
+				53CCCED029DD56140076425B /* SuggestionsFetcher.swift in Sources */,
+				534F466929F3420E009CF877 /* EventSearcher.swift in Sources */,
+				534F468929F4E9A2009CF877 /* MapView.swift in Sources */,
+				534F467429F3B5F6009CF877 /* EventDetailsView.swift in Sources */,
+				534F465629F33404009CF877 /* EventItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +402,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EventSearch/Preview Content\"";
 				DEVELOPMENT_TEAM = UWF6HNYB32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,15 +432,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EventSearch/Preview Content\"";
 				DEVELOPMENT_TEAM = UWF6HNYB32;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EventSearch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +479,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		534F468F29F4FBF6009CF877 /* XCRemoteSwiftPackageReference "SimpleToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sanzaru/SimpleToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		534F469029F4FBF6009CF877 /* SimpleToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 534F468F29F4FBF6009CF877 /* XCRemoteSwiftPackageReference "SimpleToast" */;
+			productName = SimpleToast;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53E3C43B29DB9AAD00DD54E6 /* Project object */;
 }
