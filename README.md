@@ -1,3 +1,3 @@
-# event-search-swiftui
+# Event Search iOS
+https://user-images.githubusercontent.com/56459571/233890166-fdac0576-a65b-419b-b474-1266f890666a.mp4
 
-https://github.com/yundingw/event-search-swiftui/blob/22d72c6b93a78b27d287997d08ee0b2014784be4/demo.mp4
